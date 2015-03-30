@@ -53,19 +53,18 @@ Y ya está, hemos editado cosas y están en el repo, asique todos sabemos que ha
 
 ### Workaround en github ( web )
 Ya tenemos cambios subidos en el repo y después de hacer más ediciones sobre "cabecera_index" a lo largo de una semana, decidimos que ya está terminado, asique vamos a mezclarlo con la rama master para que forme parte del proyecto principal.
-1. Vamos a la web [Página principal del grupo](https://github.com/UCM-SistemasWeb-Veery/), hacemos click en el         repositorio **"Test"**, y nos aparecerá algo como esto:   
+Vamos a la web [Página principal del grupo](https://github.com/UCM-SistemasWeb-Veery/), hacemos click en el         repositorio **"Test"**, y nos aparecerá algo como esto:   
 ![repositorio](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/Repositorio.png)  
  Entonces, podemos cambiar de branch, si pulsamos el menú desplegable aparecerán todos los branches que haya y se      marcará el que estemos visualizando actualmente.
-2. Nos interesa hacer un **pull request**, asique al lío. Pulsamos el botón "Pull request"  
+Nos interesa hacer un **pull request**, asique al lío. Pulsamos el botón "Pull request"  
 ![pull request](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/crear_pull_request.png "pull")  
 y rellenamos los campos...  
 ![editar pull](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/editar_request.png "edit")  
 ![editar pull](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/editar_request_2.png "edit")  
-
-3. Ahora es el momento de la verdad, a todos se nos notificará el request y podremos comentar que nos parece y votar para hacer el merge.  
-4. Una vez aprobado por todos, o por mi mismo en este caso, hacemos un merge (si no hay conflictos de código)  
+Ahora es el momento de la verdad, a todos se nos notificará el request y podremos comentar que nos parece y votar para hacer el merge.  
+Una vez aprobado por todos, o por mi mismo en este caso, hacemos un merge (si no hay conflictos de código)  
 ![merge pull request](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/merge_request.png "merge")  
-5. Y ya está, ya podemos borrar el branch, que no sirve para nada  
+Y ya está, ya podemos borrar el branch, que no sirve para nada  
 ![borrar branch viejo](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/merge_terminado.png "delete")  
 
 Esto está muy bien, pero ahora los demás querrán tener su versión local actualizada, o estó será una locura, pero como está todo pensado, no hay problema, la palabra clave es **"fetch"**, o para hacerlo todo de golpe ,**"pull"**.
