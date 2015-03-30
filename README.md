@@ -16,7 +16,7 @@ Intentaré describir cada procedimiento, dando el comando pertinente a cada paso
    dictionary of slang.
  - "global information tracker": you're in a good mood, and it actually
    works for you. Angels sing, and a light suddenly fills the room.
- - "goddamn idiotic truckload of sh*t": when it breaks  
+ - "goddamn idiotic truckload of sh*t": when it breaks.  
  
 **Github:** Servidor para mantener proyectos de "git", es lo que nos permitirá discutir cambios, y tener un sitio en el que trabajar todos.
   
@@ -34,18 +34,18 @@ De esta manera se creará una carpeta "Test" con el proyecto, la cual se podrá 
     git checkout cabecera_index
 ```
  * Hacemos los cambios que sean (agregar ficheros, modificarlos...)
- * Añadimos los cambios para commitear
+ * Añadimos los cambios para commitear.
 ```bash
     git add --all
 ```
- * Hacemos el commit de nuestros cambios
+ * Hacemos el commit de nuestros cambios.
 ```bash
     git commit
 ```
 Una vez hayamos escribamos el comando, nos saldrá el editor de texto por defecto para crear el mensaje de commit (Procuremos que sea descriptivo, porque permanecerá para siempre en el proyecto).
   
-  Ahora que hemos hecho un commit, si miramos el log `git log` veremos que aparece, con lo cual, la rama "cabecera_index" ya tiene un commit en su lista
-   * Ahora que ya tenemos nuestro cambios terminados, queremos subirlos al repositorio para que todos podamos verlos, para ello, haremos un **push** del branch "cabecera_index" al **"remote"** origin
+  Ahora que hemos hecho un commit, si miramos el log `git log` veremos que aparece que la rama "cabecera_index" ya tiene un commit en su lista.
+   * Ahora que ya tenemos nuestro cambios terminados, queremos subirlos al repositorio para que todos podamos verlos, para ello, haremos un **push** del branch "cabecera_index" al **"remote"** origin.
 ```bash
     git push -u origin cabecera_index
 ```
@@ -54,7 +54,7 @@ Y ya está, hemos editado cosas y están en el repo, asique todos sabemos que ha
 ### Workaround en github ( web )
 Ya tenemos cambios subidos en el repo y después de hacer más ediciones sobre "cabecera_index" a lo largo de una semana, decidimos que ya está terminado, asique vamos a mezclarlo con la rama master para que forme parte del proyecto principal.
 1. Vamos a la web [Página principal del grupo](https://github.com/UCM-SistemasWeb-Veery/), hacemos click en el repositorio **"Test"**, y nos aparecerá algo como esto:   
-![repositorio](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/Repositorio.png)  
+![repositorio](http://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/Repositorio.png)  
 Entonces, podemos cambiar de branch, si pulsamos el menú desplegable aparecerán todos los branches que haya y se marcará el que estemos visualizando actualmente
 2. Nos interesa hacer un **pull request**, asique al lío. Pulsamos el botón "Pull request"  
 ![pull request](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/crear_pull_request.png "pull")  
@@ -82,7 +82,7 @@ A medida que surjan, tendremos que aprender a lidiar con los problemas, por ejem
 
 ## Ultimas aclaraciones
 ##### Crear un nuevo proyecto
->Cuando sea necesario, hacemos un repaso a la manera de crear repos y proyectos de git nuevos, de momento los voy creando yo.
+>Cuando sea necesario, hacemos un repaso a la manera de crear repos y proyectos de git nuevos.
 ##### Master branch
 El branch Master se crea por defecto cuando haces el primer commit en un proyecto vacío.
 ##### Origin
