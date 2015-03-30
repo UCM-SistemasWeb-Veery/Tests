@@ -57,15 +57,15 @@ Ya tenemos cambios subidos en el repo y después de hacer más ediciones sobre "
 ![repositorio](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/Repositorio.png)  
 Entonces, podemos cambiar de branch, si pulsamos el menú desplegable aparecerán todos los branches que haya y se marcará el que estemos visualizando actualmente
 2. Nos interesa hacer un **pull request**, asique al lío. Pulsamos el botón "Pull request"  
-![pull request](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/crear_pull_request.png)  
+![pull request](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/crear_pull_request.png "pull")  
 y rellenamos los campos...
-![editar pull](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/editar_request.png)
-![editar pull](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/editar_request_2.png)
+![editar pull](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/editar_request.png "edit")
+![editar pull](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/editar_request_2.png "edit")
 3. Ahora es el momento de la verdad, a todos se nos notificará el request y podremos comentar que nos parece y votar para hacer el merge.  
 4. Una vez aprobado por todos, o por mi mismo en este caso, hacemos un merge (si no hay conflictos de código)
-![merge pull request](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/merge_request.png)  
-5. Y ya está, ya podemos borrar el branch, que no sirve para nada
-![borrar branch viejo](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/merge_terminado.png)  
+![merge pull request](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/merge_request.png "merge")  
+5. Y ya está, ya podemos borrar el branch, que no sirve para nada  
+![borrar branch viejo](https://github.com/UCM-SistemasWeb-Veery/Tests/tree/master/img/merge_terminado.png "delete")  
 
 Esto está muy bien, pero ahora los demás querrán tener su versión local actualizada, o estó será una locura, pero como está todo pensado, no hay problema, la palabra clave es **"fetch"**, o para hacerlo todo de golpe ,**"pull"**.
 ```bash
