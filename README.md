@@ -85,13 +85,16 @@ A medida que surjan, tendremos que aprender a lidiar con los problemas, por ejem
 
 ## Ultimas aclaraciones
 ##### Crear un nuevo proyecto
->Cuando sea necesario, hacemos un repaso a la manera de crear repos y proyectos de git nuevos.
+> Cuando sea necesario, hacemos un repaso a la manera de crear repos y proyectos de git nuevos.
+
 ##### Master branch
-El branch Master se crea por defecto cuando haces el primer commit en un proyecto vacío.
+> El branch Master se crea por defecto cuando haces el primer commit en un proyecto vacío.
+
 ##### Origin
-Algunos comandos (los que trabajan con el servidor) usan el término "origin", este es el **remote** por defecto cuando clonas un proyecto, y apunta a la dirección web desde donde has clonado, se pueden crear más remotes, editar, borrar..., para más info `git help remote`
+> Algunos comandos (los que trabajan con el servidor) usan el término "origin", este es el **remote** por defecto cuando clonas un proyecto, y apunta a la dirección web desde donde has clonado, se pueden crear más remotes, editar, borrar..., para más info `git help remote`
+
 ##### Fork
-Vale, forking... podemos trabajar de momento en el repo de la organización, para no hacer más pasos intermedios en el workaround, asique podemos olvidarnos de todo este tema.
+> Vale, forking... podemos trabajar de momento en el repo de la organización, para no hacer más pasos intermedios en el workaround, asique podemos olvidarnos de todo este tema.
 
 
 ## Más información, si MÁS información
