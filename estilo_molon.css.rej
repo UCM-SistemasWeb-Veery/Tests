@@ -1,0 +1,9 @@
+diff a/estilo_molon.css b/estilo_molon.css	(rejected hunks)
+@@ -7,5 +7,5 @@
+ }
+ 
+ h3{ 
+-   color:green;
++   color:red;
+ }
+\ No newline at end of file
